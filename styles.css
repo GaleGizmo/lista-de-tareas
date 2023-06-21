@@ -1,0 +1,42 @@
+#lista-de-tareas{
+    width: 500px;
+    min-height: 200px;
+    margin: 100px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: yellow;
+    border-radius: 20px;
+    border: 3px solid black;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+.lista{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+.btn{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.tarea-hecha{
+    color: gray;
+    opacity: 0.5;
+}
+.tarea-hecha::after{
+    content: '✔️';
+}
+
+input{
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 2px 5px
+}
+.header{
+    margin: 0 auto;
+}
